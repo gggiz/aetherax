@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "虚空之心",
+    "description": "合成虚空之心右键召唤艾瑟拉克斯",
+    "icon": {"id": "minecraft:end_crystal"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "use_heart": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [["use_heart"]]
+}

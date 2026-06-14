@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "灾变已被阻止",
+    "description": "击败艾瑟拉克斯，虚空灾变",
+    "icon": {"id": "minecraft:nether_star", "components": {"minecraft:item_name": "{\"text\":\"虚空之心\"}"}},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "aetherax:use_void_beacon",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {"function": "aetherax:boss/on_death"}
+}

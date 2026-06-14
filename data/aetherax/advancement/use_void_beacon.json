@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": "虚空召唤者",
+    "description": "在哭曜石上使用虚空信标，召唤艾瑟拉克斯",
+    "icon": {"id": "minecraft:nether_star", "components": {"minecraft:custom_data": {"aetherax":{"void_beacon":true}}}},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "use_beacon": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:nether_star"],
+          "predicates": {"minecraft:custom_data": {"aetherax":{"void_beacon":true}}}
+        },
+        "location": {"block": {"blocks": ["minecraft:crying_obsidian"]}}
+      }
+    }
+  },
+  "requirements": [["use_beacon"]],
+  "rewards": {"function": "aetherax:summon"}
+}

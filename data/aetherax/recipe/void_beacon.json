@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["OEO","ENE","OEO"],
+  "key": {
+    "O": "minecraft:crying_obsidian",
+    "E": "minecraft:ender_eye",
+    "N": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "minecraft:nether_star",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {"aetherax":{"void_beacon":true}},
+      "minecraft:item_name": {"text": "虚空信标", "color": "dark_purple", "bold": true},
+      "minecraft:lore": [
+        {"text": "在哭曜石上使用", "color": "gray", "italic": true},
+        {"text": "召唤虚空灾变", "color": "dark_purple", "italic": true}
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic"
+    }
+  }
+}

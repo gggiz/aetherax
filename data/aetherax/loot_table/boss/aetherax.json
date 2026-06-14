@@ -1,0 +1,181 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {"aetherax":{"void_heart":true}},
+                "minecraft:item_name": {"text": "虚空之星", "color": "dark_purple", "bold": true, "italic": false},
+                                "minecraft:lore": [
+                  {"text": "艾瑟拉克斯的晶化核心", "color": "light_purple", "italic": true},
+                  {"text": "依然脉动着虚空能量", "color": "dark_purple", "italic": true},
+                  "",
+                  {"text": "放入信标中以释放其真正的力量", "color": "gray", "italic": true}
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "epic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {"aetherax":{"void_template":true}},
+                "minecraft:item_name": {"text": "虚空之力卷轴", "color": "dark_purple", "bold": true, "italic": false},
+                "minecraft:lore": [
+                  {"text": "主手合金剑 + 背包虚空之星", "color": "light_purple", "italic": true},
+                  {"text": "首次攻击生物自动注入虚空之力", "color": "light_purple", "italic": true},
+                  {"text": "", "color": "gray"},
+                  {"text": "攻击距离10格 + 5点虚空伤害", "color": "dark_purple", "italic": false}
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "epic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {"min": 3, "max": 6},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {"aetherax":{"void_shard":true}},
+                "minecraft:item_name": {"text": "虚空水晶碎片", "color": "dark_purple", "italic": false},
+                "minecraft:lore": [
+                  {"text": "艾瑟拉克斯碎裂水晶的残片", "color": "light_purple", "italic": true},
+                  {"text": "散发着微弱的次元能量", "color": "gray", "italic": true}
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.35}],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {"aetherax":{"void_blade":true}},
+                "minecraft:item_name": {"text": "虚空掠夺者", "color": "dark_purple", "bold": true, "italic": false},
+                "minecraft:lore": [
+                  {"text": "注入了碎裂虚空水晶的精华", "color": "light_purple", "italic": true},
+                  {"text": "其刃锋撕裂一切护甲", "color": "dark_purple", "italic": true}
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 6,
+                  "minecraft:looting": 10,
+                  "minecraft:unbreaking": 5
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 4096,
+                "minecraft:damage": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.35}],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {"aetherax":{"voidwalker_boots":true}},
+                "minecraft:item_name": {"text": "虚空行者之靴", "color": "dark_purple", "bold": true, "italic": false},
+                "minecraft:lore": [
+                  {"text": "跨维度如履平地", "color": "light_purple", "italic": true},
+                  {"text": "大地不再束缚穿戴者", "color": "dark_purple", "italic": true}
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:enchantments": {
+                  "minecraft:feather_falling": 6,
+                  "minecraft:depth_strider": 3,
+                  "minecraft:protection": 5,
+                  "minecraft:unbreaking": 5
+                },
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 4096,
+                "minecraft:damage": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.40}],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {"aetherax":{"cosmic_essence":true}},
+                "minecraft:item_name": {"text": "宇宙精华", "color": "dark_purple", "italic": false},
+                "minecraft:lore": [
+                  {"text": "虚空之魂的结晶残留物", "color": "light_purple", "italic": true}
+                ],
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {"function": "minecraft:set_count", "count": {"min": 30, "max": 50}}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "function": "minecraft:set_lore",
+  "lore": [
+    {
+      "text": "+5 虚空伤害  +7 攻击距离",
+      "color": "dark_purple",
+      "italic": false
+    }
+  ],
+  "mode": "append"
+}

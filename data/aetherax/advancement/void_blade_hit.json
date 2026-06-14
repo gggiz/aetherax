@@ -1,0 +1,11 @@
+{
+  "parent": "aetherax:use_void_beacon",
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "aetherax:items/void_blade_damage"
+  }
+}

@@ -1,6 +1,6 @@
 # Aetherax, the Void-Born Cataclysm / 艾瑟拉克斯·虚空灾变
 
-史诗级 Minecraft Boss 战数据包，适用于 **Java 1.26.1**。
+史诗级 Minecraft Boss 战数据包，适用于 **Java 26.1**。
 
 ## 特性
 
